@@ -9,8 +9,6 @@ class Solution {
         const word2 = t.split('').sort().join('')
         console.log(word1, word2)
 
-        let count = 0
-
         if(word1.length !== word2.length){
             return false
         }else{
